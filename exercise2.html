@@ -1,64 +1,73 @@
+<!-- Dokumentin tyyppimäärittely: -->
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <!-- Verkkosivun otsikko: -->
-        <title>HTML Basics - Exercise 2</title>
-    <head>
+<!-- Head-osio sisältäen metatietoja ja tyylisäännöt: -->
+<head>
+    <!-- Merkistökoodaus ja näkymän skaalausasetukset: -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Verkkosivun otsikko | HTML-perusteet - Tehtävä 2 -->
+    <title>HTML Basics - Exercise 2</title>
 
+    <!-- Tyylisäännöt body-elementille CSS:ssä: -->
     <style>
         body {
             font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
             color: #ffefdf;
             background-color: #191919;
-            background-image: url("images/Såna.jpg");
+            background-image: url("images/Image1.png");
             background-repeat: no-repeat;
             background-position: right;
             background-size: auto;
         }
     </style>
+</head>
 
-<!-- Sivunjakaja: -->
-<header>
-    <!-- Tyhjä rivi: -->
-    <br>
+<!-- Body-osio: -->
+<body>
+    <!-- Header-osio sisältää sivuelementit: -->
+    <header>
+        <!-- Sivun pääotsikko: -->
+        <h1>
+            CVAH | THE PRODUCER
+        </h1>
 
-    <!-- Sivun otsikko: -->
-    <h1>
-        CVAH | THE PRODUCER
-    </h1>
+        <!-- Linkki Soundcloudiin logokuvan kautta: -->
+        <a href="https://www.soundcloud.com/cvah">
+            <img src="https://i1.sndcdn.com/avatars-B4IVLCJF7CMWv805-CON1Tg-t500x500.jpg" alt="Cvah, the Producer" title="Soundcloud" width="384" height="384">
+        </a>
+    </header>
 
-    <!-- Logo | Soundcloud, CVAH: -->
-    <a href="https://www.soundcloud.com/cvah">
-        <img src = "https://i1.sndcdn.com/avatars-B4IVLCJF7CMWv805-CON1Tg-t500x500.jpg" alt= "Cvah, the Producer" title= "Soundcloud" width="384" height="384">
-    </a>
+    <!-- Albumit: -->
+    <h2>Albumit:</h2>
 
-</header>
+        <!-- I: Her  -->
+        <img src="https://i1.sndcdn.com/artworks-jHEBENSuqz5De8So-D7tvmg-t500x500.jpg" alt="Album: Her" title="Såna Pablis Escobar" width="192" height="192">
+        <h2><em>Her:
+        <ul>
+            <li>Her I</li>
+            <li>Her II</li>
+            <li>Her III</li>
+        </ul>
+        </em></h2>
 
-<br>
-    <h1>Beats:</h1>
-<br>
-
-<!-- Albumi I: Her -->
-<img src="https://i1.sndcdn.com/artworks-jHEBENSuqz5De8So-D7tvmg-t500x500.jpg" alt= "Album: Her" title= "Såna Pablis Escobar" width="192" height="192">
-<!-- Listan fonttikoko: -->
-<h2>
-<!-- Lista: -->
-<ul>
-    <li><em>Her I</em></li>
-    <li><em>Her II</em></li>
-    <li><em>Her III</em></li>
-</ul>
-<!-- Albumi II: WMB -->
-<img src="https://i1.sndcdn.com/artworks-GrVmVmR5GHdhnK6o-SCzBpw-t500x500.jpg" alt= "Album: WMB" title= "WMB" width="192" height="192">
-<ul>
-    <li><em>What</em></li>
-    <li><em>My Love</em></li>
-    <li><em>Bless</em></li>
-</ul>
-</h2>
-
+        <!-- II: WMB -->
+        <img src="https://i1.sndcdn.com/artworks-GrVmVmR5GHdhnK6o-SCzBpw-t500x500.jpg" alt="Album: WMB" title="WMB" width="192" height="192">
+        <h2><em>WMB:
+        <ul>
+            <li>What</li>
+            <li>My Love</li>
+            <li>Bless</li>
+        </ul>
+        </em></h2>
+    
+    <!-- Allekirjoitus, tekijä: -->
+    <header style="float: right; margin-right: 10px;">
+        <h5><em>
+            by CVAH
+        </em></h5>
+    </header>
+    
 </body>
 
 </html>
