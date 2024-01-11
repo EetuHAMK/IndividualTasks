@@ -1,6 +1,6 @@
 body{
     background-color: #191919;
-    background-image: url(/images/image_background.png);
+    background-image: url("../images/image_background.png");
     background-blend-mode: multiply;
     background-position: center;
     background-repeat: no-repeat;
@@ -23,7 +23,7 @@ h2{
 }
 
 header{
-    background-image: url(/images/image_background.png);
+    background-image: url("../images/image_background.png");
     background-blend-mode: multiply;
     background-repeat: no-repeat;
     background-size: cover;
