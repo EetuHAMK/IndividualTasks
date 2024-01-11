@@ -6,6 +6,12 @@ body{
     font-family: 'Courier New', Courier, monospace;
 }
 
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #ff8040;
+    margin: 0px;
+}
+
 header{
     background-color: #ffefdf;
     background-image: url(/images/image_background.png);
@@ -61,6 +67,9 @@ footer p{
     font-weight: bolder;
 }
 
+.top-menu a:visited{
+    color: #804480;
+}
 .top-menu a:hover{
     color: #ffefdf;
 }
