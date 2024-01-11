@@ -12,86 +12,15 @@
     <!-- Verkkosivun otsikko | HTML-perusteet - Tehtävä 3 -->
     <link rel="stylesheet" href="../css/styles.css">
     <title>HTML Basics - Exercise 3</title>
-
-    <!-- CSS: -->
-    <style>
-        body {
-            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
-            color: #ffefdf;
-            background-color: #191919;
-            background-image: url("../images/image1.png");
-            background-repeat: no-repeat;
-            background-blend-mode: overlay;
-            background-position: top;
-            background-size: cover;
-            margin-left: 128px;
-        }
-
-        a {
-            text-decoration: none;
-            color: #ffefdf;
-        }
-
-        a:hover {
-            color: #ffffff;
-        }
-
-        .split {
-          position: absolute;
-          top: 0;
-          padding-top: 24px;
-          padding-left: 0px;
-        }
-
-        .br_etusivu {
-            display: block;
-            margin: 812px;
-        }
-
-        .her {
-          left: 0;
-          padding-top: 0px;
-          padding-left: 1280px;
-        }
-
-        .faq {
-          left: 0;
-          padding-top: 32px;
-          padding-left: 400px;
-          text-transform: capitalize;
-          text-rendering: auto;
-          line-height: 33px;
-        }
-        
-        .faq_img {
-          position: absolute;
-          top: 850px;
-          left: 128px;
-          text-align: left;
-        }
-        
-        .centered {
-          position: absolute;
-          top: 200px;
-          left: 128px;
-          text-align: center;
-        }
-
+      <style>
         .sections_arrow1{
-          position: fixed;
-          top: 342px;
-          left: 32px;
           font-size: 64px;
         }
 
         .sections_arrow2{
-          position: fixed;
-          top: 486px;
-          left: 32px;
           font-size: 64px;
-          padding-top: 64px;
         }
-    </style>
+      </style>
 </head>
 
 <!-- Body: -->
@@ -99,7 +28,7 @@
     <!-- Header: -->
     <header class="split">
         <!-- Sivun pääotsikko: -->
-        <br><h1 style="color: #ff8040;">CVAH | THE PRODUCER&#8482;</h1><br>
+        <h1>CVAH | THE PRODUCER&#8482;</h1>
     </header>
 
     <!-- Main: -->
@@ -111,9 +40,9 @@
             <a class="sections_arrow2" href="#section_down">&#11147;</a>
 
             <!-- Youtube, title: -->
-            <h2 style="color: #ff8040;">| Her II |</h2>
-            <h3 style="font-size: larger;"><em>"Beat dedicated to the one & only - Såna"</em></h3>
-            <h4 style="color: #ff8040;"><em>-- Cvah</em></h4>
+            <h2>| Her II |</h2>
+            <p><em>"Beat dedicated to the one & only - Såna"</em></p>
+            <h3><em>-- Cvah</em></h3>
 
             <!-- Youtube, video: -->
             <iframe width="720" height="280"
@@ -122,26 +51,17 @@
             style="border: 0;"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowfullscreen>
-            </iframe><br>
+            </iframe>
 
         </section>
 
         <!-- SECTION II: -->
         <section>
-          <h2 style="font-variant: small-caps;">CvahCvahCvahCvahCvahCvahCvah</h2>
-            <!-- MARGINAALI: -->
-            <aside class="br_etusivu"></aside>
-            <!-- MARGINAALI: -->
-        </section>
-
-        <!-- SECTION III: -->
-        <section>
-          <h2 style="color: #ff8040;">FAQ</h2>
+          <h2>FAQ:</h2>
             <!-- Såna -image: -->
-            <img class="faq_img" src="../images/image2.png" alt="Såna the Cat" title="WMB" width="368" height="368" style="margin-top: 64px;">
+            <img class="faq_img" src="../images/image2.png" alt="Såna the Cat" title="WMB" width="128" height="128">
             <!-- FAQ: -->
             <dl class="faq">
-                <dt style="color: #ff8040;"><b><em>FAQ:</em></b></dt>
                 <dt style="color: #ffff80;">Question I:</dt>
                 <dt style="color: #ff8040;"><em>"Who is Såna?"</em></dt>
                     <dd>- A cat, a beat...</dd>
@@ -155,14 +75,14 @@
             
             <!-- BLOCKQUOTE: -->
             <blockquote cite="https://www.huxley.net/bnw/four.html">
-                <p style="font-size: large; color: #ff8040">"Isn't it beautiful!" His voice trembled a little.</p>
+                <p>"Isn't it beautiful!" His voice trembled a little.</p>
 
                 <!-- HYPERLINK I: -->
-                <footer style="font-size: medium;">—Aldous Huxley, <cite><a href="https://www.huxley.net/bnw/four.html">Brave New World</a></cite></footer>
+                <footer>—Aldous Huxley, <cite><a href="https://www.huxley.net/bnw/four.html">Brave New World</a></cite></footer>
             </blockquote><br>
 
                 <!-- HYPERLINK II: -->
-            <p style="color: #3c7ff3;">
+                <p style="color: #3c7ff3;">
                 <a href="https://dipaish.github.io/www2020/css/devenvironment.png" target="_blank" download="devenvironment.png">
                 Download PNG
                 </a> | by <abbr title="Hämeen ammattikorkeakoulu">HAMK</abbr> teacher, Dipaish.
@@ -173,12 +93,12 @@
         <!-- SECTION IV: -->
         <section id="section_down">
             <!-- Footer: -->
-            <footer style="color: #ff8040; position: static;">
-                <h4><em>by CVAH</em></h4>
+            <footer>
+                <p><em>by CVAH</em></p>
             </footer>
 
             <!-- Address: -->
-            <address style="position: relative;">
+            <address>
                 Hämeen ammattikorkeakoulu, HAMK<br>
                 PL 230<br>
                 13101, Hämeenlinna<br>
@@ -186,7 +106,7 @@
             </address>
 
             <!-- Footer: -->
-            <footer style="color: #ff8040;">
+            <footer>
                 <p>&copy; 2024 | Eetu | HAMK</p>
                 <p><a href="https://www.soundcloud.com/cvah"> Soundcloud</a> |<a href="https://www.youtube.com/@cvah"> YouTube</a></p>
             </footer>
