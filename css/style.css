@@ -19,7 +19,7 @@ h1{
 h2{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: #ff8040;
-    padding-top: 7.8vh;
+    padding-top: 7.6vh;
 }
 
 header{
@@ -45,7 +45,7 @@ header img {
 
 nav{
     background-image: url("../images/nav.png");
-    background-blend-mode: overlay;
+    background-blend-mode: normal;
     background-size: cover;
     padding: auto;
 }
