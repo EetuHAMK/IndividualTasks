@@ -25,7 +25,6 @@ h2{
     font-size: 32px;
     font-variant: small-caps;
     color: #ff8040;
-    padding-top: 16vh;
 }
 
 header{
@@ -128,15 +127,18 @@ blockquote{
     margin: 0px;
 }
 
+/*- ADJUSTS THE LISTS:*/
+.top-menu ul{
+    margin: 20px;
+}
+
+/*- ADJUSTS AN INDIVIDUAL LIST:*/
 .top-menu li{
     display: inline-block;
     margin-left: 20px;
 }
 
-.top-menu ul{
-    margin: 20px;
-}
-
+/*- ADJUSTS THE LINKS:*/
 .top-menu a{
     text-decoration: none;
     font-weight: bolder;
