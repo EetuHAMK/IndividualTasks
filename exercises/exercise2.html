@@ -1,113 +1,87 @@
 <!-- HTML: -->
 <!DOCTYPE html>
 <html lang="en">
-<!-- Head: -->
-<head>
-    <!-- Merkistökoodaus ja näkymän skaalausasetukset: -->
+  <!-- HEAD: -->
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="CVAH">
     <meta name="description" content="The site contains information about SoundCloud artist called CVAH.">
-
-    <!-- Verkkosivun otsikko | HTML-perusteet - Tehtävä 2 -->
+    <!-- STYLES.CSS: -->
     <link rel="stylesheet" href="../css/styles.css">
     <title>HTML Basics - Exercise 2</title>
 
-    <!-- STYLE: -->
-    <style>
-        body {
-            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
-            color: #ffefdf;
-            background-color: #191919;
-            background-image: url("../images/image1.png");
-            background-repeat: no-repeat;
-            background-blend-mode: overlay;
-            background-position: top;
-            background-size: cover;
-            margin-left: 128px;
-        }
-        a {
-            text-decoration: none;
-            color: #ffefdf;
-        }
-        a:hover {
-            color: #ff8040;
-        }
-    </style>
+  </head>
 
-</head>
-
-<!-- Body: -->
-<body>
-
-    <!-- Header - sisältää sivuelementit: -->
+  <!-- BODY: -->
+  <body>
+    <!-- HEADER: -->
     <header>
-        <!-- Sivun pääotsikko: -->
-        <h1 style="color: #ff8040;">CVAH | THE PRODUCER&#8482;</h1>
+      <!-- TITLE: -->
+      <h1>CVAH | THE PRODUCER&#8482;</h1>
     </header>
-    <!-- Main: -->
+
+    <!-- MAIN: -->
     <main>
-        <!-- Section I: -->
-        <section>
-            <!-- Intro: -->
-            <h2 style="color: #ff8040;">Her II |</h2>
-            <h3><em>"Beat dedicated to the one & only - Såna"</em></h3>
-            <h3 style="color: #ff8040;"><em>-- Cvah</em></h3>
+      <!-- SECTION I: -->
+      <section>
+        <!-- INTRO: -->
+        <h2>Her II |</h2>
+          <h3><em>"Beat dedicated to the one & only - Såna"</em></h3>
+        <h3><em>-- Cvah</em></h3>
 
-            <!-- Youtube: -->
-            <iframe width="720" height="480"
-            src="https://www.youtube.com/embed/dD3SQzuX0m0?si=LDmkEaazPEVWCC7c"
-            title="YouTube - CVAH"
-            style="border: 0;"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen>
-            </iframe><br>
+        <!-- YOUTUBE: -->
+        <iframe width="720" height="480"
+        src="https://www.youtube.com/embed/dD3SQzuX0m0?si=LDmkEaazPEVWCC7c"
+        title="YouTube - CVAH"
+        style="border: 0;"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen>
+        </iframe><br>
 
-        </section>
+      </section>
 
-        <!-- Section II: -->
-        <section>
+      <!-- SECTION II: -->
+      <section>
+        <!-- I: HER -->
+        <img src="https://i1.sndcdn.com/artworks-jHEBENSuqz5De8So-D7tvmg-t500x500.jpg" alt="Album: Her" title="Såna Pablis Escobar" width="192" height="192">
+          <h2 style="color: #ff8040;">Her:</h2>
+        <ul>
+          <li>Her I</li>
+          <li>Her II</li>
+          <li>Her III</li>
+        </ul>
 
-            <!-- I: Her -->
-            <img src="https://i1.sndcdn.com/artworks-jHEBENSuqz5De8So-D7tvmg-t500x500.jpg" alt="Album: Her" title="Såna Pablis Escobar" width="192" height="192" style="margin-top: 20px;">
-            <h2 style="color: #ff8040;">Her:</h2>
-            <ul>
-                <li>Her I</li>
-                <li>Her II</li>
-                <li>Her III</li>
-            </ul>
+        <!-- II: WMB -->
+        <img src="https://i1.sndcdn.com/artworks-GrVmVmR5GHdhnK6o-SCzBpw-t500x500.jpg" alt="Album: WMB" title="WMB" width="192" height="192">
+          <h2 style="color: #ff8040;">WMB:</h2>
+        <ul>
+          <li>What</li>
+          <li>My Love</li>
+          <li>Bless</li>
+        </ul>
 
-            <!-- II: WMB -->
-            <img src="https://i1.sndcdn.com/artworks-GrVmVmR5GHdhnK6o-SCzBpw-t500x500.jpg" alt="Album: WMB" title="WMB" width="192" height="192" style="margin-top: 10px;">
-            <h2 style="color: #ff8040;">WMB:</h2>
-            <ul>
-                <li>What</li>
-                <li>My Love</li>
-                <li>Bless</li>
-            </ul>
+      </section>
+      
+      <!-- HEADER: -->
+      <header>
+        <h4><em>by CVAH</em></h4>
+      </header>
+      <!-- ADDRESS: -->
+      <address>
+        Hämeen ammattikorkeakoulu, HAMK<br>
+        PL 230<br>
+        13101, Hämeenlinna<br>
+        Finland
+      </address>
+      <!-- FOOTER: -->
+      <footer>
+        <p>&copy; 2024 | Eetu | HAMK</p>
+        <p><a href="https://www.soundcloud.com/cvah"> Soundcloud</a> |<a href="https://www.youtube.com/@cvah"> YouTube</a></p>
+      </footer>
 
-        </section>
+    </main>
 
-
-        <!-- Header, tekijä: -->
-        <header style="color: #ff8040; position: static; ">
-            <h4><em>by CVAH</em></h4>
-        </header>
-        <!-- Yhteystiedot: -->
-        <address style="position: relative;">
-            Hämeen ammattikorkeakoulu, HAMK<br>
-            PL 230<br>
-            13101, Hämeenlinna<br>
-            Finland
-        </address>
-        <!-- Linkit: -->
-        <footer style="color: #ff8040;">
-            <p>&copy; 2024 Soundcloud | Youtube</p>
-            <p><a href="https://www.soundcloud.com/cvah"> Soundcloud</a> |<a href="https://www.youtube.com/@cvah"> YouTube</a></p>
-        </footer>
-
-    </main>      
-
-</body>
+  </body>
 
 </html>

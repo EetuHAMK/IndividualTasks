@@ -37,6 +37,7 @@ header{
     color: #ffefdf;
     font-size: 20px;
     padding: 20px;
+    margin: auto;
 }
 
 header div{
@@ -76,6 +77,7 @@ footer{
     background-size: cover;
     text-align: center;
     padding: 20px;
+    margin: auto;
 }
 
 footer div{
@@ -88,12 +90,19 @@ footer p{
     font-size: 18px;
     font-weight: bolder;
     color: #ffffff;
-    margin: 0;
 }
 
-footer img {
+footer img{
     max-width: 32px;
     border: 1px solid #ffefdf;
+}
+
+address{
+    margin: 20px;
+}
+
+blockquote{
+    margin: auto;
 }
 
 /*CUSTOM CLASSES:*/
