@@ -18,11 +18,35 @@
 
   <!-- CUSTOMIZED STYLES: -->
   <style>
-    .sections_arrow1{
+
+    h1{
+      font-variant: small-caps;
+      color: #ff8040;
+      margin: 0px;
+    }
+
+    header{
+      vertical-align: middle;
+      text-align: center;
+      border: 4px solid #ff8040;
+    }
+
+    blockquote p{
+      vertical-align: middle;
+      text-align: center;
+    }
+
+    #section3 p{
+      vertical-align: middle;
+      text-align: center;
+    }
+
+    #sections_arrow1{
+      display: inline-block;
       font-size: 64px;
     }
 
-    .sections_arrow2{
+    #sections_arrow2{
       font-size: 64px;
     }
   </style>
@@ -33,20 +57,19 @@
     <main>
       <!-- HEADER: -->
       <header>
-        <h1>CVAH | THE PRODUCER&#8482;</h1>
+        <div>
+          <h1>CVAH | THE PRODUCER™</h1>
+          <!-- CUSTOM STYLE | ARROW DOWN: -->
+          <a id="sections_arrow1" href="#footer1">&#11147;</a>
+        </div>
       </header>
 
       <!-- SECTION I: -->
       <section>
-        <!-- CUSTOM STYLES | ARROWS: -->
-        <a class="sections_arrow1" href="#">&#11145;</a>
-        <a class="sections_arrow2" href="#">&#11147;</a>
-
         <!-- YOUTUBE | TITLE: -->
         <h2>| Her II |</h2>
           <p><em>"Beat dedicated to the one & only - Såna"</em></p>
-        <h3><em>-- Cvah</em></h3>
-
+            <h3><em>-- Cvah</em></h3>
         <!-- YOUTUBE | VIDEO: -->
         <iframe width="720" height="280"
         src="https://www.youtube.com/embed/dD3SQzuX0m0?si=LDmkEaazPEVWCC7c"
@@ -61,8 +84,8 @@
       <section>
         <!-- FAQ: -->
         <h2>FAQ:</h2>
-          <!-- SÅNA -image: -->
-          <img src="../images/image2.png" alt="Såna the Cat" title="WMB" width="128" height="128">
+        <!-- SÅNA -image: -->
+        <img src="../images/image2.png" alt="Såna the Cat" title="WMB" width="128" height="128">
         <!-- Q&A: -->
         <dl class="faq">
           <dt style="color: #ffff80;">Question I:</dt>
@@ -78,7 +101,7 @@
       </section>
 
       <!-- SECTION III: -->
-      <section>
+      <section id="section3">
         <!-- BLOCKQUOTE: -->
         <blockquote cite="https://www.huxley.net/bnw/four.html">
           <!-- QUOTE: -->
@@ -109,7 +132,9 @@
       </address>
 
       <!-- FOOTER: -->
-      <footer>
+      <footer id="footer1">
+        <!-- CUSTOM STYLE | ARROW UP: -->
+        <a id="sections_arrow2" href="#">&#11145;</a>
         <p>&copy; 2024 | Eetu | HAMK</p>
         <p><a href="https://www.soundcloud.com/cvah"> Soundcloud</a> |<a href="https://www.youtube.com/@cvah"> YouTube</a></p>
       </footer>
