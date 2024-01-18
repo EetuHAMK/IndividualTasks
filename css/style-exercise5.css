@@ -84,3 +84,35 @@ footer{
   padding: 20px;
   font-size: 2em;
 }
+
+.top-menu{
+  text-align: center;
+}
+
+/*- ADJUSTS THE LISTS:*/
+.top-menu ul{
+  margin: 20px;
+}
+
+/*- ADJUSTS AN INDIVIDUAL LIST:*/
+.top-menu li{
+  display: inline-block;
+  margin-left: 20px;
+}
+
+/*- ADJUSTS THE LINKS:*/
+.top-menu a{
+  text-decoration: none;
+  font-weight: bolder;
+  color: #191919;
+}
+
+/*- CHANGES COLOR WHEN HOVERING OVER LINK:*/
+.top-menu a:hover {
+  color: rgb(255, 64, 64, 0.5);
+}
+
+/*- CHANGES COLOR WHEN LINK IS VISITED:*/
+.top-menu a:visited {
+  color: rgb(255, 64, 64, 0.5);
+}
