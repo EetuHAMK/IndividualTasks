@@ -11,91 +11,58 @@
     <meta name="author" content="Eetu | HAMK">
     <meta name="description" content="The site contains information about SoundCloud artist">
     <!-- STYLE.CSS: -->
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/style-exercise3.css">
     <!-- BOOTSTRAP: -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <!-- TITLE: -->
     <title>HTML BASICS | EXERCISE 3</title>
-
-  <!-- CUSTOMIZED STYLES: -->
-  <style>
-
-    h1{
-      font-variant: small-caps;
-      color: #ff8040;
-      margin: 0px;
-    }
-
-    header{
-      vertical-align: middle;
-      text-align: center;
-      border: 4px solid #ff8040;
-    }
-
-    blockquote p{
-      vertical-align: middle;
-      text-align: center;
-    }
-
-    dl{
-      font-size: 20px;
-    }
-
-    dt{
-      padding-top: 6px;
-    }
-
-    #section3 h4{
-      vertical-align: middle;
-      text-align: center;
-    }
-
-    #sections_arrow1{
-      display: inline-block;
-      font-size: 64px;
-    }
-
-    #sections_arrow2{
-      font-size: 64px;
-    }
-  </style>
-
   </head>
-  <!-- BODY: -->
-  <body>
+
+  <!--  Exercise 3: Validation & Adding More Elements -->
+
+
+    <!-- NAVIGATION: -->
     <nav>
-      <ul class="top-menu">
-        <li><a href="../exercises/exercise1.html" target="_blank">
-          Exercise 1 </a></li>
-        <li><a href="../exercises/exercise2.html" target="_blank">
-          Exercise 2 </a></li>
-        <li><a href="../exercises/exercise3.html" target="_blank">
-          Exercise 3 </a></li>
-        <li><a href="../exercises/exercise4.html" target="_blank">
-          Exercise 4 </a></li>
-        <li><a href="../exercises/exercise5.html" target="_blank">
-          Exercise 5 </a></li>
-        <li><a href="../exercises/exercise6.html" target="_blank">
-          Exercise 6 </a></li>
+      <ul class="nav justify-content-center">
+        <li class="nav-item">
+          <a class="nav-link" href="../exercises/exercise1.html" target="_blank">
+            Exercise 1</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../exercises/exercise2.html" target="_blank">
+            Exercise 2</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../exercises/exercise3.html" target="_blank">
+            Exercise 3</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../exercises/exercise4.html" target="_blank">
+            Exercise 4</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../exercises/exercise5.html" target="_blank">
+            Exercise 5</a>
+        </li>
       </ul>
     </nav>
+    
     <!-- MAIN: -->
     <main>
       <!-- HEADER: -->
       <header>
-        <div>
-          <h1>CVAH | THE PRODUCER™</h1>
+        <h1>CVAH | THE PRODUCER™</h1>
           <!-- CUSTOM STYLE | ARROW DOWN: -->
-          <a id="sections_arrow1" href="#footer">&#11147;</a>
-        </div>
+        <a class="sections_arrow1" href="#footer">&#11147;</a>
       </header>
 
       <!-- SECTION I: -->
       <section>
         <!-- YOUTUBE | TITLE: -->
         <h2>| Her II |</h2>
-          <p><em>"Beat dedicated to the one & only - Såna"</em></p>
-            <h3><em>-- Cvah</em></h3>
+        <p>"Beat dedicated to the one & only - Såna"</p>
+        <p><em>-- Cvah</em></p>
+        
         <!-- YOUTUBE | VIDEO: -->
         <iframe width="720" height="280"
         src="https://www.youtube.com/embed/dD3SQzuX0m0?si=LDmkEaazPEVWCC7c"
@@ -127,13 +94,13 @@
       </section>
 
       <!-- SECTION III: -->
-      <section id="section3">
+      <section class="section3">
         <!-- BLOCKQUOTE: -->
         <blockquote cite="https://www.huxley.net/bnw/four.html">
           <!-- QUOTE: -->
           <h4>"Isn't it beautiful!" His voice trembled a little.</h4>
           <!-- HYPERLINK I: -->
-          <footer>—Aldous Huxley, <cite><a href="https://www.huxley.net/bnw/four.html">Brave New World</a></cite></footer>
+          <footer><p>—Aldous Huxley, <cite><a href="https://www.huxley.net/bnw/four.html">Brave New World</a></cite></p></footer>
         </blockquote><br>
           <!-- HYPERLINK II: -->
           <a href="../images/devenvironment.png" download>
@@ -148,20 +115,21 @@
 
       <!-- ADDRESS: -->
       <address>
-        Hämeen ammattikorkeakoulu, HAMK<br>
-        PL 230<br>
-        13101, Hämeenlinna<br>
-        Finland
+        Address: Siilitie 14<br>
+        00980, Helsinki<br>
+        Finland.
       </address>
+    </main>
 
       <!-- FOOTER: -->
       <footer id="footer">
         <!-- CUSTOM STYLE | ARROW UP: -->
-        <a id="sections_arrow2" href="#">&#11145;</a>
+        <div>
+        <a class="sections_arrow2" href="#">&#11145;</a>
+        </div>
         <p>&copy; 2024 | Eetu | HAMK</p>
-        <p><a href="https://www.soundcloud.com/cvah"> Soundcloud</a> |<a href="https://www.youtube.com/@cvah"> YouTube</a></p>
       </footer>
-    </main>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+      
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
   </body>
 </html>

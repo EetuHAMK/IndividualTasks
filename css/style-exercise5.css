@@ -49,6 +49,13 @@ div{
   margin: 1%;
 }
 
+.vs p{
+  text-align: center;
+  font-weight: bold;
+  margin-top: 5vh;
+  color: #ff8040;
+}
+
 li{
   padding-top: 0.5%;
 }
@@ -85,34 +92,51 @@ footer{
   font-size: 2em;
 }
 
-.top-menu{
+.nav-item{
   text-align: center;
 }
 
 /*- ADJUSTS THE LISTS:*/
-.top-menu ul{
+.nav-item ul{
   margin: 20px;
 }
 
 /*- ADJUSTS AN INDIVIDUAL LIST:*/
-.top-menu li{
+.nav-item li{
   display: inline-block;
   margin-left: 20px;
 }
 
 /*- ADJUSTS THE LINKS:*/
-.top-menu a{
+.nav-item a{
   text-decoration: none;
   font-weight: bolder;
   color: #191919;
 }
 
 /*- CHANGES COLOR WHEN HOVERING OVER LINK:*/
-.top-menu a:hover {
+.nav-item a:hover {
   color: rgb(255, 64, 64, 0.5);
 }
 
 /*- CHANGES COLOR WHEN LINK IS VISITED:*/
-.top-menu a:visited {
+.nav-item a:visited {
   color: rgb(255, 64, 64, 0.5);
+}
+
+.table.table-dark.table-striped th{
+  color: #ff8040
+}
+
+.table.table-dark.table-striped td{
+  font-style: italic;
+}
+
+.mb-3 label {
+  color: #ff8040
+}
+
+.btn.btn-primary{
+  background-color: #191919;
+  border: #191919;
 }
