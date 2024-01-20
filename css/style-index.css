@@ -58,12 +58,15 @@ nav{
 }
 
 nav ul{
-  display: inline;
   list-style-type: none;
   font-size: 20px;
   font-weight: bolder;
   padding: 20px;
   margin: 0px;
+}
+
+nav ul li{
+  display: inline;
 }
 
 section{
