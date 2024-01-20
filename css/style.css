@@ -21,11 +21,6 @@ main{
   margin-left: 1rem;
 }
 
-img{
-  max-width: 20dvw;
-  border: 1px solid #ffffff;
-}
-
 header h1, h2, h3, h4, h5{
   text-decoration: dotted;
   font-variant: small-caps;
@@ -96,10 +91,6 @@ footer p{
   padding: 20px;
   font-weight: bolder;
   color: #ffffff;
-}
-
-footer img{
-  border: 1px solid #ffefdf;
 }
 
 address{
